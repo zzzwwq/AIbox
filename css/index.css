@@ -1,0 +1,74 @@
+@import url(base.css);
+.bg{
+    position: absolute;
+    /*width: 7.5rem;*/
+    /*height: 13.34rem;*/
+    background: #f4f4f4;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.box{
+    width: 3.2rem;
+    height: 3.2rem;
+    background: red;
+    margin-top: 1.74rem ;
+    margin-left: 2.09rem;
+}
+.box img{
+    width: 3.2rem;
+    height: 3.2rem;
+    background: #f4f4f4;
+}
+.text{
+    width: 3.2rem;
+    height: 0.59rem;
+    background: #f4f4f4;
+    margin-top: 0.39rem;
+    margin-left: 2.09rem;
+    font-family: "San Francisco Display";
+    font-size: 0.32rem;
+    line-height: 0.59rem;
+    text-align: center ;
+    color: #6a6a6a;
+}
+.login{
+    width: 4.69rem;
+    height: 0.7rem;
+    background-image: -webkit-linear-gradient(left,#3e9dff,#3e9dff);
+    border-radius: 0.35rem;
+    box-shadow:  0 0.08rem 0.5rem 0.02rem rgba(65,195,225,0.4);
+    font-size: 0.24rem;
+    text-align: center ;
+    line-height: 0.7rem;
+    color: #fff;
+   
+    /*display: block;*/
+}
+.login1{
+    width: 4.69rem;
+    height: 0.7rem;
+    margin-top: 2.96rem;
+    margin-left: 1.34rem;
+    display: block;
+}
+.face {
+    width: 4.69rem;
+    height: 0.7rem;
+    background-image: -webkit-linear-gradient(left, #33d07d, #3de43d);
+    border-radius: 0.35rem;
+    box-shadow:  0 0.08rem 0.5rem 0.02rem rgba(65,195,225,0.4);
+    font-size: 0.24rem;
+    text-align: center ;
+    line-height: 0.7rem;
+    color: #fff;
+    /*display: block;*/
+}
+.face1{
+    width: 4.69rem;
+    height: 0.7rem;
+    margin-top: 0.26rem;
+    margin-left: 1.34rem;
+    display: block;
+}

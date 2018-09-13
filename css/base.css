@@ -1,0 +1,22 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 16px;
+	font-family: "微软雅黑","宋体";
+}
+a{
+	text-decoration: none;
+}
+button:focus{
+	outline: none;
+}
+button{
+	border: none;
+}
+input{
+	border: none;
+}
+input:focus{
+	background: none;
+}

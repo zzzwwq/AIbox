@@ -1,0 +1,57 @@
+@import url(base.css);
+.bg{
+    position: absolute;
+    /*width: 7.5rem;*/
+    /*height: 13.34rem;*/
+    background: #f4f4f4;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.box img{
+    width: 7.5rem;
+    height: 13.34rem;
+}
+.picture{
+    width: 6.05rem;
+    height: 1.35rem;
+    position: absolute;
+    top: 3.6rem;
+    left: 0.7rem;
+}
+.picture img{
+    width: 6.05rem;
+    height: 1.35rem;
+    position: absolute;
+}
+.word{
+    width: 5rem;
+    height: 0.9rem;
+    position: absolute;
+    top: 5.9rem;
+    left: 1.12rem;
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.4);
+    text-align: center;
+    line-height: 0.45rem;
+}
+.begin1{
+    width: 3.5rem;
+    height: 0.7rem;
+    position: absolute;
+    top: 10.74rem;
+    left: 2rem;
+    display: block;
+}
+.begin{
+    width: 3.5rem;
+    height: 0.7rem;
+    font-size: 0.24rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.45rem;
+    background-image: -webkit-linear-gradient(left,#ffab37,#ffce37) ;
+    border-radius: 0.35rem;
+    box-shadow:  0 0.05rem 0.4rem 0.005rem  #ffef41;
+}

@@ -1,0 +1,150 @@
+@import url(base.css);
+.bg{
+    position: absolute;
+    /*width: 7.5rem;*/
+    /*height: 13.34rem;*/
+    background: #f4f4f4;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.first_circle{
+    width: 3.32rem;
+    height: 3.32rem;
+    position: absolute;
+    border-radius: 50%;
+    margin-top: 1.67rem;
+    margin-left: 2.07rem;
+    background: rgba(128,218,156,0.3);
+    animation: first 1.1s infinite;
+}
+@keyframes first {
+    0% {
+        transform: scale(1);
+    }
+    10% {
+        transform: scale(1.1);
+    }
+    20% {
+        transform: scale(1.2);
+    }
+    30% {
+        transform: scale(1.3);
+    }
+    40% {
+        transform: scale(1.4);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    70% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+.second_circle{
+    width: 2.79rem;
+    height: 2.79rem;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 1.93rem;
+    margin-left: 2.33rem;
+    background: rgba(128,218,156,0.5);
+    animation: first 1.3s infinite;
+}
+.third_circle{
+    width: 2.22rem;
+    height: 2.22rem;
+    position: absolute;
+    border-radius: 50%;
+    margin-top: 2.22rem;
+    margin-left: 2.62rem;
+    background: rgba(128,218,156,0.7);
+    animation: first 1.4s infinite;
+}
+.small_circle{
+    width: 0.66rem;
+    height: 0.66rem;
+    position: absolute;
+    border-radius: 50%;
+    margin-top: 2.57rem;
+    margin-left: 3.4rem;
+    background-image: -webkit-linear-gradient(top, #33d14e, #47c797);
+    box-shadow:  0 0.05rem 0.4rem 0.005rem rgba(51,195,143,0.25);
+}
+.box{
+    width: 1.24rem;
+    height: 0.6rem;
+    position: absolute;
+    border-radius: 0.3rem;
+    margin-top: 3.37rem;
+    margin-left: 3.11rem;
+    background-image: -webkit-linear-gradient(top, #33d14e, #47c797);
+    box-shadow:  0 0.05rem 0.4rem 0.005rem rgba(51,195,143,0.25);
+}
+.word-top{
+    width: 3.88rem;
+    height: 0.4rem;
+    position: absolute;
+    margin-top: 5.14rem;
+    margin-left: 1.84rem;
+    font-size: 0.28rem;
+    text-align: center;
+    line-height: 0.4rem;
+    color: #33d14d;
+     display: block;
+}
+.word-bottom{
+    width: 3rem;
+    height: 0.53rem;
+    position: absolute;
+    margin-top: 5.54rem;
+    margin-left: 2.27rem;
+    font-size: 0.22rem;
+    text-align: center;
+    line-height: 0.53rem;
+    color: #afafaf;
+}
+.input-box{
+    width: 5.3rem;
+    height: 0.54rem;
+    background: red;
+    position: absolute;
+    margin-top: 7.72rem;
+    margin-left: 1.1rem;
+    border-bottom: 0.01rem solid #000;
+}
+.left{
+    width: 0.18rem;
+    height: 0.08rem;
+    border-radius: 0.09rem;
+    background: #ffe823;
+    box-shadow:  0 0.05rem 0.4rem 0.005rem rgba(255,236,28,0.25);
+    margin-top: 0.07rem;
+    float: left;
+}
+input{
+    width: 2.42rem;
+    height: 0.33rem;
+    float: left;
+    background: #f4f4f4;
+    padding-left: 0.31rem;
+    line-height: 0.33rem;
+    outline:none;
+}
+.bottom{
+    width: 3.5rem;
+    height: 0.7rem;
+    background: #dbdbdb;
+    border-radius: 0.35rem;
+    margin-left: 1.99rem;
+    margin-top: 10.79rem;
+    font-size: 0.24rem;
+    text-align: center;
+    line-height: 0.7rem;
+    color: rgba(0,0,0,0.7);
+    display: block;
+}

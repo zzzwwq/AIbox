@@ -1,0 +1,65 @@
+@import url(base.css);
+.bg{
+    position: absolute;
+    /*width: 7.5rem;*/
+    /*height: 13.34rem;*/
+    background: #f4f4f4;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.picture{
+    position: absolute;
+    width: 5.66rem;
+    height: 3.60rem;
+    background: #f4f4f4;
+    top: 4.30rem;
+    left: 0.94rem;
+}
+.picture img{
+    width: 5.66rem;
+    height: 3.60rem;
+}
+.question {
+    width: 1.12rem;
+    height: 0.98rem;
+    position: absolute;
+    left: 3.04rem;
+    top: 4.90rem;
+}
+.question img{
+    width: 1.12rem;
+    height: 0.98rem;
+}
+.word{
+    width: 3.22rem;
+    height: 0.55rem;
+    font-size: 0.26rem;
+    color: #a3a3a3;
+    text-align: center;
+    line-height: 0.98rem;
+    margin-top: 5.70rem;
+    margin-left: 2.2rem;
+    position: absolute;
+}
+.box{
+    width: 2.28rem;
+    height: 0.54rem;
+    margin-top: 6.55rem;
+    margin-left: 2.59rem;
+    position: absolute;
+    display: block;
+}
+.box_word{
+    width: 2.28rem;
+    height: 0.54rem;
+    background-image: -webkit-linear-gradient(left,#33d07c,#3de43e);
+    border-radius: 0.27rem;
+    box-shadow:  0 0.06rem 0.4rem 0.01rem rgba(65,195,225,0.4);
+    font-size: 0.24rem;
+    color: #fff;
+    float: left;
+    text-align: center;
+    line-height: 0.54rem;
+}

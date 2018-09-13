@@ -1,0 +1,63 @@
+@import url(base.css);
+.bg{
+    position: absolute;
+    /*width: 7.5rem;*/
+    /*height: 13.34rem;*/
+    background: #f4f4f4;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.bg img{
+    width: 7.5rem;
+    height: 13.34rem;
+}
+.first{
+    width: 1.2rem;
+    height: 0.35rem;
+    position: absolute;
+    top: 1.23rem;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.32rem;
+    color: #fff;
+}
+.second{
+    width: 2.71rem;
+    height: 0.64rem;
+    position: absolute;
+    top: 1.57rem;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.24rem;
+    text-align: center;
+    line-height: 0.64rem;
+    color: rgba(255,255,255,0.5);
+}
+.down1 {
+    width: 3.5rem;
+    height: 0.7rem;
+    position: absolute;
+    top: 10.79rem;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.down{
+    width: 3.5rem;
+    height: 0.7rem;
+    font-size: 0.24rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.7rem;
+    background-image: -webkit-linear-gradient(left, #ffab37 ,#ffce37) ;
+    box-shadow:  0 0.05rem 0.4rem 0.005rem  #ffab37;
+    border-radius: 0.35rem;
+}
